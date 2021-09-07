@@ -16,7 +16,8 @@
       <pubDate>Sat, 14 Aug 2021 23:24:28 -0400</pubDate>
       
       <guid>https://doctorjax.github.io/posts/hugo-is-interesting/</guid>
-      <description>Ah yes, text.</description>
+      <description>So, I wanted a way to create a wiki/blog so that I could document all of the stuff that I do inside of my homelab, just in case I break something and need to fix it.
+Why I Didn&amp;rsquo;t Choose WordPress I looked at WordPress first and while it could have done what I wanted, I decided I wanted something that I didn&amp;rsquo;t host so if my server goes down I can still access it.</description>
     </item>
     
   </channel>
