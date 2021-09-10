@@ -5,11 +5,22 @@
     <link>https://doctorjax.github.io/posts/</link>
     <description>Recent content in Posts on Technological Magic</description>
     <image>
-      <url>https://doctorjax.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://doctorjax.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://raw.githubusercontent.com/DoctorJax/blog/main/hugoprofilepicture.png</url>
+      <link>https://raw.githubusercontent.com/DoctorJax/blog/main/hugoprofilepicture.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 14 Aug 2021 23:24:28 -0400</lastBuildDate><atom:link href="https://doctorjax.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Sep 2021 21:40:01 -0400</lastBuildDate><atom:link href="https://doctorjax.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proxmox First Install</title>
+      <link>https://doctorjax.github.io/posts/proxmox-first-install/</link>
+      <pubDate>Tue, 07 Sep 2021 21:40:01 -0400</pubDate>
+      
+      <guid>https://doctorjax.github.io/posts/proxmox-first-install/</guid>
+      <description>Proxmox is a great Linux based hypervisor. It&amp;rsquo;s Debian based and is really easy to set up.
+No-Subscription Repo While by default you need to pay for Promox to get updates, you can enable the non-subscription repo to get updates anyway. To do so, you could follow the Proxmox wiki, or just add this line to your /etc/apt/sources.list:
+deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription Updating When updating, do NOT just apt update &amp;amp;&amp;amp; apt upgrade, it will break things.</description>
+    </item>
+    
     <item>
       <title>Hugo Is Interesting</title>
       <link>https://doctorjax.github.io/posts/hugo-is-interesting/</link>

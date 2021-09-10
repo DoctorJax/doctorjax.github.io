@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Technological Magic</title>
-    <link>https://doctorjax.github.io/</link>
-    <description>Recent content on Technological Magic</description>
+    <title>hypervisor on Technological Magic</title>
+    <link>https://doctorjax.github.io/tags/hypervisor/</link>
+    <description>Recent content in hypervisor on Technological Magic</description>
     <image>
       <url>https://raw.githubusercontent.com/DoctorJax/blog/main/hugoprofilepicture.png</url>
       <link>https://raw.githubusercontent.com/DoctorJax/blog/main/hugoprofilepicture.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Sep 2021 21:40:01 -0400</lastBuildDate><atom:link href="https://doctorjax.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 Sep 2021 21:40:01 -0400</lastBuildDate><atom:link href="https://doctorjax.github.io/tags/hypervisor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Proxmox First Install</title>
       <link>https://doctorjax.github.io/posts/proxmox-first-install/</link>
@@ -19,16 +19,6 @@
       <description>Proxmox is a great Linux based hypervisor. It&amp;rsquo;s Debian based and is really easy to set up.
 No-Subscription Repo While by default you need to pay for Promox to get updates, you can enable the non-subscription repo to get updates anyway. To do so, you could follow the Proxmox wiki, or just add this line to your /etc/apt/sources.list:
 deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription Updating When updating, do NOT just apt update &amp;amp;&amp;amp; apt upgrade, it will break things.</description>
-    </item>
-    
-    <item>
-      <title>Hugo Is Interesting</title>
-      <link>https://doctorjax.github.io/posts/hugo-is-interesting/</link>
-      <pubDate>Sat, 14 Aug 2021 23:24:28 -0400</pubDate>
-      
-      <guid>https://doctorjax.github.io/posts/hugo-is-interesting/</guid>
-      <description>So, I wanted a way to create a wiki/blog so that I could document all of the stuff that I do inside of my homelab, just in case I break something and need to fix it.
-Why I Didn&amp;rsquo;t Choose WordPress I looked at WordPress first and while it could have done what I wanted, I decided I wanted something that I didn&amp;rsquo;t host so if my server goes down I can still access it.</description>
     </item>
     
   </channel>
