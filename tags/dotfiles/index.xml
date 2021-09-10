@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>dotfiles on Technological Magic</title>
+    <link>https://doctorjax.github.io/tags/dotfiles/</link>
+    <description>Recent content in dotfiles on Technological Magic</description>
+    <image>
+      <url>https://raw.githubusercontent.com/DoctorJax/blog/main/hugoprofilepicture.png</url>
+      <link>https://raw.githubusercontent.com/DoctorJax/blog/main/hugoprofilepicture.png</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 10 Sep 2021 00:04:42 -0400</lastBuildDate><atom:link href="https://doctorjax.github.io/tags/dotfiles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Dotfiles</title>
+      <link>https://doctorjax.github.io/posts/my-dotfiles/</link>
+      <pubDate>Fri, 10 Sep 2021 00:04:42 -0400</pubDate>
+      
+      <guid>https://doctorjax.github.io/posts/my-dotfiles/</guid>
+      <description>If you want my dotfiles or you&amp;rsquo;re me and setting up a new computer, then this might be helpful.
+Packages My dotfiles kinda revolve around Arch Linux, but that doesn&amp;rsquo;t mean they don&amp;rsquo;t work on other distros. However, I&amp;rsquo;m currently only going to give a guide for Arch Linux because I&amp;rsquo;m lazy.
+Paru AUR Helper sudo pacman -S --needed base-devel git clone https://aur.archlinux.org/paru.git cd paru makepkg -si Needed &amp;amp; Recommended Packages paru -S \ # Window Manager Stuff awesome awesome-freedesktop-git rofi picom python-pywal nitrogen \ # Zsh zsh zsh-syntax-highlighting zsh-autosuggestions \ # Terminal alacritty \ # Extras ranger cmus nemo neofetch pfetch lolcat nerd-fonts-complete htop \ # Text Editors vim neovim emacs libreoffice \ # Browsers brave-bin firefox \  # Rust and cargo should get installed with alacritty cargo install exa ripgrep du-dust Starship Prompt Here&amp;rsquo;s their website, but I&amp;rsquo;m going to have this command here so I can easily copy and paste.</description>
+    </item>
+    
+  </channel>
+</rss>
