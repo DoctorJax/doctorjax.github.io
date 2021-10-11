@@ -19,7 +19,7 @@ deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription Updating
 <link rel=mask-icon href=https://doctorjax.github.io/%3Clink%20/%20abs%20url%3E>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.88.1">
 <meta property="og:title" content="Proxmox First Install">
 <meta property="og:description" content="Proxmox is a great Linux based hypervisor. It&rsquo;s Debian based and is really easy to set up.
 No-Subscription Repo While by default you need to pay for Promox to get updates, you can enable the non-subscription repo to get updates anyway. To do so, you could follow the Proxmox wiki, or just add this line to your /etc/apt/sources.list:
@@ -99,13 +99,13 @@ Proxmox First Install
 <div class=post-content><p>Proxmox is a great Linux based hypervisor. It&rsquo;s Debian based and is really easy to set up.</p>
 <h1 id=no-subscription-repo>No-Subscription Repo<a hidden class=anchor aria-hidden=true href=#no-subscription-repo>#</a></h1>
 <p>While by default you need to pay for Promox to get updates, you can enable the non-subscription repo to get updates anyway. To do so, you could follow the <a href=https://pve.proxmox.com/wiki/Package_Repositories#sysadmin_no_subscription_repo>Proxmox wiki</a>, or just add this line to your <code>/etc/apt/sources.list</code>:</p>
-<pre><code>deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
+<pre tabindex=0><code>deb http://download.proxmox.com/debian/pve bullseye pve-no-subscription
 </code></pre><h1 id=updating>Updating<a hidden class=anchor aria-hidden=true href=#updating>#</a></h1>
 <p>When updating, do <strong>NOT</strong> just <code>apt update && apt upgrade</code>, it will break things. Instead, make sure to do <code>apt update && apt dist-upgrade</code>.</p>
 <h1 id=lxc-containers>LXC Containers<a hidden class=anchor aria-hidden=true href=#lxc-containers>#</a></h1>
 <p>LXC containers are great. Pretty much everything running on my Proxmox right now is in an LXC container. You can get templates for certain services, or just use a base template and put whatever you want on them. I usually use either the Ubuntu Server template or the OpenSUSE template. Either way, I like to add my own user instead of just using root for everything. Call me paranoid, but security is security.</p>
 <h3 id=updating-and-installing-stuff>Updating and installing stuff<a hidden class=anchor aria-hidden=true href=#updating-and-installing-stuff>#</a></h3>
-<pre><code># Ubuntu Server
+<pre tabindex=0><code># Ubuntu Server
 apt update &amp;&amp; apt upgrade -y
 
 apt install sudo vim neofetch htop git wget zsh tmux
@@ -115,7 +115,7 @@ zypper refresh &amp;&amp; zypper update
 
 zypper install sudo vim neofetch htop git wget zsh tmux
 </code></pre><h3 id=user-setup>User setup<a hidden class=anchor aria-hidden=true href=#user-setup>#</a></h3>
-<pre><code># Adding a new user
+<pre tabindex=0><code># Adding a new user
 useradd -m -g users -G sudo -s /bin/bash &lt;user&gt;
 
 # Don't forget to set the password
