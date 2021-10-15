@@ -9,7 +9,43 @@
       <link>https://raw.githubusercontent.com/DoctorJax/blog/main/hugoprofilepicture.png</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 10 Sep 2021 00:04:42 -0400</lastBuildDate><atom:link href="https://doctorjax.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Oct 2021 09:38:52 -0400</lastBuildDate><atom:link href="https://doctorjax.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>key repeat</title>
+      <link>https://doctorjax.github.io/tags/key-repeat/</link>
+      <pubDate>Fri, 15 Oct 2021 09:38:52 -0400</pubDate>
+      
+      <guid>https://doctorjax.github.io/tags/key-repeat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mouse acceleration</title>
+      <link>https://doctorjax.github.io/tags/mouse-acceleration/</link>
+      <pubDate>Fri, 15 Oct 2021 09:38:52 -0400</pubDate>
+      
+      <guid>https://doctorjax.github.io/tags/mouse-acceleration/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>no screen blanking</title>
+      <link>https://doctorjax.github.io/tags/no-screen-blanking/</link>
+      <pubDate>Fri, 15 Oct 2021 09:38:52 -0400</pubDate>
+      
+      <guid>https://doctorjax.github.io/tags/no-screen-blanking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xorg</title>
+      <link>https://doctorjax.github.io/tags/xorg/</link>
+      <pubDate>Fri, 15 Oct 2021 09:38:52 -0400</pubDate>
+      
+      <guid>https://doctorjax.github.io/tags/xorg/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>dotfiles</title>
       <link>https://doctorjax.github.io/tags/dotfiles/</link>

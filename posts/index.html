@@ -59,13 +59,25 @@
 </header>
 <article class=post-entry>
 <header class=entry-header>
+<h2>Xorg Tweaks
+</h2>
+</header>
+<section class=entry-content>
+<p>There are some things in Xorg that I specifically like to set to better fit my needs. This is a list of my current settings that I like.
+Disabling Mouse Acceleration One of the things I dislike is mouse acceleration. I like having a high mouse sensitivity, and having mouse acceleration on adaptive just slows it down and makes mouse movements inconsistent. At some point I was looking into how to turn it off, and then later I forgot where I put it because it was in some odd file besides what everyone else was saying....</p>
+</section>
+<footer class=entry-footer>October 15, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;DoctorJax</footer>
+<a class=entry-link aria-label="post link to Xorg Tweaks" href=https://doctorjax.github.io/posts/xorg-tweaks/></a>
+</article>
+<article class=post-entry>
+<header class=entry-header>
 <h2>My Dotfiles
 </h2>
 </header>
 <section class=entry-content>
 <p>If you want my dotfiles, or you’re me and setting up a new computer, then this might be helpful.
 Packages My dotfiles kinda revolve around Arch Linux, but that doesn’t mean they don’t work on other distros. However, I’m currently only going to give a guide for Arch Linux because I’m lazy.
-Paru AUR Helper sudo pacman -S --needed base-devel git clone https://aur.archlinux.org/paru.git cd paru makepkg -si Needed & Recommended Packages paru -S \ # Window Manager Stuff awesome awesome-freedesktop-git rofi picom python-pywal nitrogen \ # Zsh zsh zsh-syntax-highlighting zsh-autosuggestions \ # Terminal alacritty \ # Extras ranger cmus nemo neofetch pfetch lolcat nerd-fonts-complete htop keepassxc yubioath-desktop \ # Text Editors vim neovim emacs libreoffice \ # Browsers brave-bin firefox \ # Rust and cargo should get installed with alacritty cargo install exa ripgrep du-dust Starship Prompt Here’s their website, but I’m going to have this command here so I can easily copy and paste....</p>
+Paru AUR Helper sudo pacman -S --needed base-devel git clone https://aur.archlinux.org/paru.git cd paru makepkg -si Needed & Recommended Packages paru -S \ # Window Manager Stuff awesome awesome-freedesktop-git rofi picom python-pywal nitrogen \ # Zsh zsh zsh-syntax-highlighting zsh-autosuggestions \ # Terminal alacritty \ # Terminal Extras ranger cmus nemo neofetch pfetch lolcat nerd-fonts-complete htop \ # Password Manager Stuff keepassxc yubioath-desktop \ # Text Editors vim neovim emacs libreoffice \ # Spell Checking Support hunspell hunspell-en hyphen hyphen-en libmythes mythes-en \ # Browsers brave-bin firefox \ # Rust and cargo should get installed with alacritty cargo install exa ripgrep du-dust Starship Prompt Here’s their website, but I’m going to have this command here so I can easily copy and paste....</p>
 </section>
 <footer class=entry-footer>September 10, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;DoctorJax</footer>
 <a class=entry-link aria-label="post link to My Dotfiles" href=https://doctorjax.github.io/posts/my-dotfiles/></a>
