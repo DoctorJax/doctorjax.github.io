@@ -63,8 +63,8 @@
 </header>
 <section class=entry-content>
 <p>If you want my dotfiles, or you’re me and setting up a new computer, then this might be helpful.
-Packages My dotfiles kinda revolve around Arch Linux, but that doesn’t mean they don’t work on other distros. However, I’m currently only going to give a guide for Arch Linux because I’m lazy.
-Paru AUR Helper sudo pacman -S --needed base-devel git clone https://aur.archlinux.org/paru.git cd paru makepkg -si Needed & Recommended Packages paru -S \ # Window Manager Stuff awesome awesome-freedesktop-git rofi picom python-pywal nitrogen \ # Zsh zsh zsh-syntax-highlighting zsh-autosuggestions \ # Terminal alacritty \ # Terminal Extras ranger cmus nemo neofetch pfetch lolcat nerd-fonts-complete htop \ # Password Manager Stuff keepassxc yubioath-desktop \ # Text Editors vim neovim emacs libreoffice \ # Spell Checking Support hunspell hunspell-en hyphen hyphen-en libmythes mythes-en \ # Browsers brave-bin firefox \ # Rust and cargo should get installed with alacritty cargo install exa ripgrep du-dust Starship Prompt Here’s their website, but I’m going to have this command here so I can easily copy and paste....</p>
+Ansible Pull So, I setup an ansible repository for my dotfiles that allows me to just do an ansible pull to set almost everything up after installation.
+# Dotfiles sudo ansible-pull -U https://github.com/DoctorJax/.ansible-dotfiles.git # Server Dotfiles sudo ansible-pull -U https://github.com/DoctorJax/.ansible-serverdots.git Packages My dotfiles kinda revolve around Arch Linux, but that doesn’t mean they don’t work on other distros....</p>
 </section>
 <footer class=entry-footer>September 10, 2021&nbsp;·&nbsp;2 min&nbsp;·&nbsp;DoctorJax</footer>
 <a class=entry-link aria-label="post link to My Dotfiles" href=https://doctorjax.github.io/posts/my-dotfiles/></a>
